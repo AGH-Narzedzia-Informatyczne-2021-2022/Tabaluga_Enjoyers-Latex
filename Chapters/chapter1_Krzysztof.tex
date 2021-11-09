@@ -1,0 +1,37 @@
+\section{Krzysztof Czechowicz}
+\label{sec:Krzysztof Czechowicz}
+  \setlength{\parindent}{1cm}
+  
+  
+  
+  \textit{W pierwszym paragrafie} mojego rozdziału chciałbym skupić się na \textbf{wstępie do projektu} jakim jest zdalny alkomat. Zdalny alkomat będzie umożliwiał \textbf{sprawdzenie stanu trzeźwości} dowolnej osoby na podstawie informacji takich jak masa ciała badanej osoby, ilości wypitego przez nią alkoholu, czy chociażby czasu w jakim dany alkohol został spożyty. Pozwoli nam to z dużą precyzją określić chociażby czy osoba, która spożyła daną ilość alkoholu może wejść do samochodu czy raczej nie.
+   
+   {Warto również nakreślić w jakiej intencji pracujemy nad projektem. Mamy nadzieję, że nasza aplikacja pozwoli ograniczyć liczbę wypadków spowodowanych przez pijanych kierowców. W poniższej tabeli przedstawię statystyki z poprzednich lat. Prognozy są niepokojące ponieważ liczba wypadków z roku na rok się zwiększa.}
+   
+   
+   Table~\ref{tab:Tabela 1} reprezentuje statystyki.
+   \input{Tables/tabela1}
+   
+\newpage Zdjęcie z ostatniego wypadku z udziałem pijanego (patrz Figure~\ref{fig:wypadek})
+
+\begin{figure}[htbp] 
+    \centering
+    \includegraphics[width=0.7\textwidth]{Pictures/wypadek.png} 
+    \caption{Wypadek z dnia 20 października 2021 roku.}
+    \label{fig:wypadek}
+\end{figure}
+
+Poniżej przedstawie wzór który wyliczy nam ilość alkoholu we krwii badanej osoby:
+
+\[P=\frac{x*m+h}{x*h+m^n}\]
+\begin{itemize}
+  \item ,,x'' oznacza procent alkohol przeliczony na alkohol dziesięcioprocentowy w litrach.
+  \item ,,m'' oznacza masę osoby badanej.
+  \item ,,h'' oznacza wysokość osoby badanej.
+\end{itemize}
+Z kolei liczba $ n=g^x $ może oznaczać:
+\begin{enumerate}
+  \item Stężenie alkoholu podniesione do potęgi spożytej ilości alkoholu w ml.
+  \item Ilość czystego alkoholu
+  \item Czas w jakim alkohol podany w powyżej wymienionym wzorze został spożyty.
+\end{enumerate}
